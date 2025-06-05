@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    color: black;
+    text-align: center;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+h2 {
+    font-family: 'Chelsea Market', cursive;
+    color: black;
+    text-align: center;
+    font-size: clamp(.9rem, 2.5vw, 1.5rem);
+}
+h3 {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+h4 {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+hr {
+    border: 1px solid black;
+}
+.main-contents {
+    text-align: center;
+}
+p {
+    font-family: Verdana, sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+li {
+    font-family: Verdana, sans-serif;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: left;
+}

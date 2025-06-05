@@ -1,0 +1,121 @@
+body {
+    background-image: url('Running.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+}
+h2 {
+    font-size: clamp(.9rem, .5vw, 1rem); 
+    margin-left: 40px; 
+    position: absolute;
+    bottom: 5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+.streambutton {
+    text-decoration: none;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 10px 40px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    position: relative;
+}
+.streambutton:hover {
+    background-color: papayawhip;
+    border: 3px solid #5C4033;
+    color: #5C4033;
+}
+h4 {
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+}
+.sitemain-header {
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    padding-top: 20px;
+    overflow-x: hidden;
+    position: absolute; 
+    width: 350px;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+@media only screen and (max-width: 900px) {
+    .sitemain-header{
+        width: 250px;
+        transition: all 0.3s ease;
+        left: -200px;
+    }
+    .sitemain-header:hover {
+        left: 0px;
+    }
+    .albumcoverhistorya {
+        width: 20rem;
+        height: 20rem;
+    }
+    .contents-main {
+        margin-left: 10vw;
+    }
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Chelsea Market', cursive;
+    font-size: clamp(1.3rem, 2.3vw, 1.3rem);
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    color: papayawhip;
+    transition: all 0.5s ease-in-out;
+    font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+}
+.contents-main {
+    text-align: right;
+    margin-right: 10vw;
+    margin-top: 150px;
+    position: relative;
+}
+.end-footer {
+    text-align: left;
+    position: absolute;
+}
+.termscondition {
+    color: rgb(171, 171, 171);
+    font-family: 'Chelsea Market', cursive;
+    font-size: clamp(1rem, .5vw, .5rem);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.termscondition:hover {
+    color: papayawhip;
+    font-size: clamp(1rem, .5vw, .5rem);
+    transition: all 0.5s ease-in-out;
+    text-decoration: underline;
+}
+.end-footer nav {
+    justify-content: left;
+    align-items: left;
+}
+.disclaimers {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
